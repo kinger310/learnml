@@ -1,7 +1,6 @@
+import  matplotlib.pyplot as plt
 
-import seaborn as sn
-
-
-iris = sn.load_dataset('iris')
-
+plt.figure()
+plt.plot([1,2,3])
+plt.show()
 print('ok')
